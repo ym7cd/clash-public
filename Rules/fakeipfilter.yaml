@@ -311,3 +311,6 @@ payload:
   
   # ── 阿里千问 ──
   - +.aliyuncs.com
+
+  # ── 美图 ──
+  - +.meitustat.com
