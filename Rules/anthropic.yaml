@@ -2,11 +2,25 @@ payload:
   # ── 核心服务 ──
   - +.anthropic.com            # Anthropic 主站核心
   - +.claude.ai                # Claude 网页版入口
-  - +.claude.com               # Claude 备用域名
+  - +.claude.com               # Claude 官网 / 登录 / Console
+  - +.claude.app               # Claude Desktop / 实时预览
   - +.clau.de                  # Claude 短域名（重定向）
   - +.claudemcpclient.com      # Claude MCP 客户端通信
   - +.claudemcpcontent.com
   - +.claudeusercontent.com    # Claude 用户内容 / 附件
+
+  # ── 社区补充域名 ──
+  # 来源：https://github.com/v2fly/domain-list-community/blob/master/data/anthropic
+  - +.ant.dev
+  - +.anthropic.team
+  - +.antspace.dev
+  - +.chatbotclaude.com
+  - +.claude.dev
+  - +.claude.new
+  - +.claude.site
+  - +.claudeacademy.com
+  - +.claudepages.dev
+  - +.claudestudio.com
 
   # ── CDN 和基础设施 ──
   - +.cdn.anthropic.com                 # Anthropic CDN 资源

@@ -3,7 +3,9 @@ payload:
 #curl -s "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS399358" \
 #  | jq -r '.data.prefixes[].prefix'
 
-  - 160.79.104.0/23        # AS399358 自治系统号 包含其全部已宣告路由
+  # 官方服务入口：https://platform.claude.com/docs/en/api/ip-addresses
+  - 160.79.104.0/23
+  - 153.61.224.0/22
   - 2607:6bc0::/48
   - 209.249.57.0/24     
   - 2607:6bc0:11::/48
